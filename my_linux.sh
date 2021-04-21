@@ -55,7 +55,7 @@ fi
 
 echo === Getting my keyboard configs ===
 
-sudo git clone https://gist.github.com/joaobb/72086d46fa85030d77cc79e113da58f2 /usr/share/X11/xkb/symbols/xbow
+sudo curl -o https://gist.githubusercontent.com/joaobb/72086d46fa85030d77cc79e113da58f2/raw/643dc980edd1fde6f30f7acd5cb2d43f78776fc2/br /usr/share/X11/xkb/symbols/xbow
 
 echo === Setting keyboard configs up ===
 
