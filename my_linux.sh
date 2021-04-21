@@ -1,11 +1,12 @@
 #!/bin/bash
 
 echo === Installing ZSH ===
+sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo === Setting ZSH up ===
 
-echo ZSH_THEME=aussiegeek >>~/.zshrc
+echo ZSH_THEME=aussiegeek >> ~/.zshrc
 
 echo "plugins=(
         git
@@ -67,4 +68,4 @@ XKBLAYOUT="xbow_br"
 XKBVARIANT="xbows-ptbr"
 XKBOPTIONS=""
 
-BACKSPACE="guess"' > /etc/default/keyboard
+BACKSPACE="guess"' > /etc/default/keyboard/br
