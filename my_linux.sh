@@ -55,7 +55,7 @@ fi
 
 echo === Getting my keyboard configs ===
 
-git clone https://gist.github.com/joaobb/72086d46fa85030d77cc79e113da58f2 /usr/share/X11/xkb/symbols/br
+git clone https://gist.github.com/joaobb/72086d46fa85030d77cc79e113da58f2 /usr/share/X11/xkb/symbols/xbow
 
 echo === Setting keyboard configs up ===
 
@@ -68,4 +68,4 @@ XKBLAYOUT="xbow_br"
 XKBVARIANT="xbows-ptbr"
 XKBOPTIONS=""
 
-BACKSPACE="guess"' > /etc/default/keyboard/br
+BACKSPACE="guess"' > /etc/default/keyboard
