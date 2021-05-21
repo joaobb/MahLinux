@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo === Installing cURL ===
+sudo apt install curl
+
 echo === Installing ZSH ===
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
